@@ -1,0 +1,142 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.todo-list {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    max-width: 600px;
+    max-height: 800px;  
+    border: 2px solid #000;
+    padding: 10px;  
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.todo-list h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.todo-list li {
+    font-size: 18px;
+}
+
+.todo-list li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.controls-one {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.controls-one #add-todo {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.controls-one #clear-todos {
+    background-color: #dd360c;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.input-container h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.input-container input {
+    width: 70%;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.controls-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.controls-two button {
+    font-size: 16px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 300px;
+    height: 150px;
+    background-color: #dd360c;
+    border-radius: 8px;
+    color: white;
+}
+
+.delete-container h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.controls button {
+    font-size: 16px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
